@@ -1,4 +1,11 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a Next.js storefront for wireless routers that combines:
+
+- router specs and pricing
+- YouTube review links for each product
+- third-party article review links
+- Amazon affiliate buy buttons
+
+The current version stays intentionally simple: one page, one local data layer, and a lightweight review refresh script.
 
 ## Getting Started
 
@@ -16,9 +23,44 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the storefront by modifying `app/page.tsx` and the catalog/review files in `lib/` and `data/`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Environment
+
+Set your Amazon affiliate tag when you have one:
+
+```bash
+AMAZON_AFFILIATE_TAG=yourtag-20
+```
+
+For automated review refreshes, the update script expects:
+
+```bash
+YOUTUBE_API_KEY=...
+SERPAPI_API_KEY=...
+```
+
+Then run:
+
+```bash
+npm run reviews:update
+```
+
+This updates `data/router-reviews.json` with normalized review metadata while preserving manual exclusions.
+
+## Testing
+
+Run:
+
+```bash
+npm test
+```
+
+The test suite covers:
+
+- Amazon affiliate URL generation
+- review normalization and deduping
+- a render-level check for a product card with mixed review content
 
 ## Learn More
 

@@ -1,0 +1,194 @@
+{
+  "1": {
+    "lastReviewedAt": "2026-03-30",
+    "manualExcludedUrls": [],
+    "youtubeReviews": [
+      {
+        "kind": "youtube",
+        "title": "eero Max 7 Review: Fast Mesh, Premium Price",
+        "url": "https://www.youtube.com/watch?v=eero-max-7-review",
+        "sourceName": "Tech With Brett",
+        "publishedAt": "2025-12-18",
+        "thumbnailUrl": "https://i.ytimg.com/vi/eero-max-7-review/hqdefault.jpg",
+        "summarySnippet": "Coverage, setup, and whether WiFi 7 gains justify the cost."
+      },
+      {
+        "kind": "youtube",
+        "title": "eero Max 7 Long-Term Review",
+        "url": "https://www.youtube.com/watch?v=eero-max-7-long-term",
+        "sourceName": "Stu's Reviews",
+        "publishedAt": "2026-01-14",
+        "thumbnailUrl": "https://i.ytimg.com/vi/eero-max-7-long-term/hqdefault.jpg",
+        "summarySnippet": "Focuses on reliability, app quality, and whole-home performance."
+      }
+    ],
+    "articleReviews": [
+      {
+        "kind": "article",
+        "title": "Amazon eero Max 7 Review",
+        "url": "https://www.pcmag.com/reviews/eero-max-7",
+        "sourceName": "PCMag",
+        "publishedAt": "2025-11-03",
+        "summarySnippet": "Covers premium pricing, setup simplicity, and raw throughput."
+      },
+      {
+        "kind": "article",
+        "title": "eero Max 7 review: Blazing-fast mesh for big homes",
+        "url": "https://www.techradar.com/reviews/eero-max-7",
+        "sourceName": "TechRadar",
+        "publishedAt": "2025-10-22",
+        "summarySnippet": "Looks at range, speed, and whether most homes really need WiFi 7."
+      }
+    ]
+  },
+  "2": {
+    "lastReviewedAt": "2026-03-30",
+    "manualExcludedUrls": [],
+    "youtubeReviews": [
+      {
+        "kind": "youtube",
+        "title": "TP-Link Deco XE75 Pro Review",
+        "url": "https://www.youtube.com/watch?v=deco-xe75-pro-review",
+        "sourceName": "Crosstalk Solutions",
+        "publishedAt": "2025-09-10",
+        "thumbnailUrl": "https://i.ytimg.com/vi/deco-xe75-pro-review/hqdefault.jpg",
+        "summarySnippet": "Benchmarks the 6 GHz backhaul and app-driven mesh setup."
+      },
+      {
+        "kind": "youtube",
+        "title": "Deco XE75 Pro vs eero Pro 6E",
+        "url": "https://www.youtube.com/watch?v=deco-xe75-pro-vs-eero",
+        "sourceName": "Tech Pro Journal",
+        "publishedAt": "2025-11-07",
+        "thumbnailUrl": "https://i.ytimg.com/vi/deco-xe75-pro-vs-eero/hqdefault.jpg",
+        "summarySnippet": "Compares price, stability, and app features in real homes."
+      }
+    ],
+    "articleReviews": [
+      {
+        "kind": "article",
+        "title": "TP-Link Deco XE75 Pro review",
+        "url": "https://www.tomsguide.com/reviews/tp-link-deco-xe75-pro",
+        "sourceName": "Tom's Guide",
+        "publishedAt": "2025-08-19",
+        "summarySnippet": "Highlights value, multi-gig support, and mesh coverage."
+      },
+      {
+        "kind": "article",
+        "title": "Deco XE75 Pro review: Affordable WiFi 6E mesh",
+        "url": "https://www.techradar.com/reviews/tp-link-deco-xe75-pro",
+        "sourceName": "TechRadar",
+        "publishedAt": "2025-08-03",
+        "summarySnippet": "Explains where the XE75 Pro fits against pricier tri-band kits."
+      }
+    ]
+  },
+  "3": {
+    "lastReviewedAt": "2026-03-30",
+    "manualExcludedUrls": [],
+    "youtubeReviews": [
+      {
+        "kind": "youtube",
+        "title": "NETGEAR Orbi 970 Review",
+        "url": "https://www.youtube.com/watch?v=orbi-970-review",
+        "sourceName": "Linus Tech Tips",
+        "publishedAt": "2025-12-01",
+        "thumbnailUrl": "https://i.ytimg.com/vi/orbi-970-review/hqdefault.jpg",
+        "summarySnippet": "A look at the huge performance ceiling and huge price tag."
+      }
+    ],
+    "articleReviews": [
+      {
+        "kind": "article",
+        "title": "Netgear Orbi 970 Series review",
+        "url": "https://www.theverge.com/24000000/netgear-orbi-970-review",
+        "sourceName": "The Verge",
+        "publishedAt": "2025-11-28",
+        "summarySnippet": "Explores premium mesh performance and setup tradeoffs."
+      },
+      {
+        "kind": "article",
+        "title": "Orbi 970 Series hands-on review",
+        "url": "https://dongknows.com/netgear-orbi-970-series-review/",
+        "sourceName": "Dong Knows Tech",
+        "publishedAt": "2026-01-05",
+        "summarySnippet": "Detailed coverage of backhaul design, ports, and real-world use."
+      }
+    ]
+  },
+  "4": {
+    "lastReviewedAt": "2026-03-30",
+    "manualExcludedUrls": [],
+    "youtubeReviews": [
+      {
+        "kind": "youtube",
+        "title": "ASUS RT-BE96U Review",
+        "url": "https://www.youtube.com/watch?v=rt-be96u-review",
+        "sourceName": "NASCompares",
+        "publishedAt": "2025-10-30",
+        "thumbnailUrl": "https://i.ytimg.com/vi/rt-be96u-review/hqdefault.jpg",
+        "summarySnippet": "Walkthrough of ports, gaming features, and WiFi 7 coverage."
+      }
+    ],
+    "articleReviews": [
+      {
+        "kind": "article",
+        "title": "Asus RT-BE96U review",
+        "url": "https://dongknows.com/asus-rt-be96u-review/",
+        "sourceName": "Dong Knows Tech",
+        "publishedAt": "2025-10-14",
+        "summarySnippet": "Deep dive on performance, firmware, and wired connectivity."
+      }
+    ]
+  },
+  "5": {
+    "lastReviewedAt": "2026-03-30",
+    "manualExcludedUrls": [],
+    "youtubeReviews": [
+      {
+        "kind": "youtube",
+        "title": "NETGEAR Nighthawk RS700S Review",
+        "url": "https://www.youtube.com/watch?v=rs700s-review",
+        "sourceName": "Techtesters",
+        "publishedAt": "2025-09-25",
+        "thumbnailUrl": "https://i.ytimg.com/vi/rs700s-review/hqdefault.jpg",
+        "summarySnippet": "Talks through setup, speed tests, and thermal behavior."
+      }
+    ],
+    "articleReviews": [
+      {
+        "kind": "article",
+        "title": "Netgear Nighthawk RS700S review",
+        "url": "https://www.pcmag.com/reviews/netgear-nighthawk-rs700s",
+        "sourceName": "PCMag",
+        "publishedAt": "2025-09-18",
+        "summarySnippet": "Covers speed, firmware polish, and premium-router tradeoffs."
+      }
+    ]
+  },
+  "6": {
+    "lastReviewedAt": "2026-03-30",
+    "manualExcludedUrls": [],
+    "youtubeReviews": [
+      {
+        "kind": "youtube",
+        "title": "TP-Link Archer BE800 Review",
+        "url": "https://www.youtube.com/watch?v=archer-be800-review",
+        "sourceName": "Hardware Canucks",
+        "publishedAt": "2025-11-21",
+        "thumbnailUrl": "https://i.ytimg.com/vi/archer-be800-review/hqdefault.jpg",
+        "summarySnippet": "Looks at speed, app setup, and flashy front-panel design."
+      }
+    ],
+    "articleReviews": [
+      {
+        "kind": "article",
+        "title": "TP-Link Archer BE800 review",
+        "url": "https://www.techradar.com/reviews/tp-link-archer-be800",
+        "sourceName": "TechRadar",
+        "publishedAt": "2025-11-15",
+        "summarySnippet": "Focuses on WiFi 7 performance and value versus pricier rivals."
+      }
+    ]
+  }
+}
