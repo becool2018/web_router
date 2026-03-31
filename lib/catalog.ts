@@ -1,5 +1,6 @@
 import routerReviews from "../data/router-reviews.json";
 
+import { IMPORTED_ROUTERS } from "./amazon-catalog";
 import { ROUTERS, type RouterProduct } from "./routers";
 import { DEFAULT_REVIEW_SEARCH_CONFIG, type ReviewCollection } from "./reviews";
 
@@ -13,6 +14,7 @@ export type Product = RouterProduct & {
 type RouterReviewMap = Record<string, ReviewCollection | undefined>;
 
 const reviewMap = routerReviews as RouterReviewMap;
+const routerSource = IMPORTED_ROUTERS.length ? IMPORTED_ROUTERS : ROUTERS;
 
 function getReviewCollection(routerId: number): ReviewCollection {
   const entry = reviewMap[String(routerId)];
@@ -25,7 +27,7 @@ function getReviewCollection(routerId: number): ReviewCollection {
   };
 }
 
-export const PRODUCTS: Product[] = ROUTERS.map((router) => ({
+export const PRODUCTS: Product[] = routerSource.map((router) => ({
   ...router,
   category: "router",
   reviewCollection: getReviewCollection(router.id),

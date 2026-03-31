@@ -1,0 +1,22 @@
+[
+  {
+    "query": "wifi 7 router",
+    "routerType": "traditional",
+    "brands": ["ASUS", "NETGEAR", "TP-Link"]
+  },
+  {
+    "query": "mesh wifi router system",
+    "routerType": "mesh",
+    "brands": ["Amazon eero", "NETGEAR", "TP-Link", "Google"]
+  },
+  {
+    "query": "travel router",
+    "routerType": "travel",
+    "brands": ["GL.iNet"]
+  },
+  {
+    "query": "5g mobile hotspot router",
+    "routerType": "portable",
+    "brands": ["NETGEAR"]
+  }
+]

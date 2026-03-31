@@ -2,12 +2,14 @@
   "name": "router-prices",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
     "test": "node --test tests/*.test.ts",
+    "catalog:import": "node scripts/import-amazon-catalog.ts",
     "reviews:update": "node scripts/update-router-reviews.ts"
   },
   "dependencies": {

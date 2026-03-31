@@ -40,13 +40,29 @@ YOUTUBE_API_KEY=...
 SERPAPI_API_KEY=...
 ```
 
+For Amazon catalog imports, set:
+
+```bash
+AMAZON_AFFILIATE_TAG=yourtag-20
+AMAZON_PAAPI_ACCESS_KEY=...
+AMAZON_PAAPI_SECRET_KEY=...
+AMAZON_PAAPI_HOST=webservices.amazon.com
+AMAZON_PAAPI_REGION=us-east-1
+AMAZON_PAAPI_MARKETPLACE=www.amazon.com
+```
+
 Then run:
 
 ```bash
+npm run catalog:import
 npm run reviews:update
 ```
 
-This updates `data/router-reviews.json` with normalized review metadata while preserving manual exclusions.
+This importer writes Amazon-backed product data to `data/router-catalog.json`. The storefront automatically prefers that imported catalog over the static fallback list in `lib/routers.ts`.
+
+Then `npm run reviews:update` updates `data/router-reviews.json` with normalized review metadata while preserving manual exclusions.
+
+Note: Amazon’s public Product Advertising API docs say PA-API 5.0 is being deprecated on April 30, 2026 in favor of Creators API. This project’s importer is structured so you can swap the transport later, but today it uses the currently documented affiliate product API flow.
 
 ## Testing
 
@@ -59,6 +75,7 @@ npm test
 The test suite covers:
 
 - Amazon affiliate URL generation
+- Amazon catalog item normalization
 - review normalization and deduping
 - a render-level check for a product card with mixed review content
 
